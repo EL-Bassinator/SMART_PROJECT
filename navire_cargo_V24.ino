@@ -41,8 +41,8 @@ const int STBY = 8;
 // =========================================================================
 // OBJETS CAPTEURS
 // =========================================================================
-NewPing sonarG(A0, A1, 45);
-NewPing sonarD(A2, A3, 45);
+NewPing sonarG(A3, A2, 45);
+NewPing sonarD(A0, A1, 45);
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_2_4MS, TCS34725_GAIN_16X);
 
 const uint8_t ICM_ADDR = 0x68;
